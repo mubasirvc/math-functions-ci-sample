@@ -1,0 +1,15 @@
+{
+  "name": "math-functions-ci-sample",
+  "version": "1.0.0",
+  "description": "This repository contains a simple Node.js application with basic mathematical functions (`add` and `subtract`) and corresponding unit tests written using Jest. It also includes a GitHub Actions CI workflow to automate testing.",
+  "main": "app.js",
+  "scripts": {
+     "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
