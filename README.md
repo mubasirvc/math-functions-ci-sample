@@ -23,7 +23,7 @@ This repository contains a simple Node.js application with basic mathematical fu
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/math-functions-ci-sample.git
+   https://github.com/mubasirvc/math-functions-ci-sample.git
    cd math-functions-ci-sample
    
 2. Install dependencies:
@@ -33,5 +33,5 @@ This repository contains a simple Node.js application with basic mathematical fu
 3. Run the unit tests with Jest:
 
    ```bash
-  npm test
+   npm test
 
