@@ -33,10 +33,10 @@ name: Node.js CI/CD
 on:
   push:
     branches:
-      - server
+      - master
   pull_request:
     branches:
-      - server
+      - master
 
 jobs:
   build:
