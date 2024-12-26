@@ -1,30 +1,26 @@
-# Math Functions CI Sample
+# Simple Node.js App with CI/CD
 
-This repository contains a simple Node.js application with basic mathematical functions (`add` and `subtract`) and corresponding unit tests written using Jest. It also includes a GitHub Actions CI workflow to automate testing.
-
----
+This is a minimal Node.js application that serves a single route, has unit tests, and is containerized with Docker. The repository includes a CI/CD pipeline set up using GitHub Actions.
 
 ## Features
-- **Addition and Subtraction Functions:** Simple utility functions for basic math operations.
-- **Automated Tests:** Jest test cases for the functions.
-- **Continuous Integration:** GitHub Actions workflow for automated testing on every push or pull request.
 
----
+- **Node.js** application with Express.
+- **Unit Tests** written using Jest and Supertest.
+- **Dockerized** for containerized deployment.
+- **CI/CD Pipeline** using GitHub Actions.
 
-## Getting Started
+## Setup
 
 ### Prerequisites
-- Node.js (v18 or later)
-- npm (comes with Node.js)
-
----
+- [Node.js](https://nodejs.org/) installed (version 16+ recommended)
+- [Docker](https://www.docker.com/) installed
 
 ### Installation
-
 1. Clone the repository:
    ```bash
-   https://github.com/mubasirvc/math-functions-ci-sample.git
-   cd math-functions-ci-sample
+   git clone https://github.com/yourusername/simple-node-ci-cd.git
+   cd simple-node-ci-cd
+
    
 2. Install dependencies:
    ```bash
@@ -35,3 +31,12 @@ This repository contains a simple Node.js application with basic mathematical fu
    ```bash
    npm test
 
+3. Build Docker Image:
+
+   ```bash
+   docker build -t simple-node-ci-cd .
+
+4. Run Docker Container:
+
+   ```bash
+   docker run -p 3000:3000 simple-node-ci-cd
